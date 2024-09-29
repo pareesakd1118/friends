@@ -3,8 +3,8 @@
 <p align="center">Contributors</p>
 <div align="center"> Pareesa Kamgar-Dayhoff: https://github.com/pareesakd1118 </div> <p align="center">Technologies Used</p> <div align="center"> <code><img width="50" src="https://user-images.githubusercontent.com/25181517/192158954-f88b5814-d510-4564-b285-dff7d6400dad.png" alt="HTML" title="HTML"/></code> <code><img width="50" src="https://user-images.githubusercontent.com/25181517/183898674-75a4a1b1-f960-4ea9-abcb-637170a00a75.png" alt="CSS" title="CSS"/></code> <code><img width="50" src="https://user-images.githubusercontent.com/25181517/183890598-19a0ac2d-e88a-4005-a8df-1ee36782fde1.png" alt="Ruby" title="Ruby"/></code> <code><img width="50" src="https://user-images.githubusercontent.com/25181517/189716630-fe6c084c-6c66-43af-aa49-64c8aea4a5c2.png" alt="Rails" title="Rails"/></code> <code><img width="50" src="https://user-images.githubusercontent.com/25181517/192108372-f71d70ac-7ae6-4c0d-8395-51d8870c2ef0.png" alt="Git" title="Git"/></code> <code><img width="50" src="https://user-images.githubusercontent.com/25181517/192108374-8da61ba1-99ec-41d7-80b8-fb2f7c0a4948.png" alt="GitHub" title="GitHub"/></code> </div>
 
-## Installation Instructions: ##
-# Run the following commands to clone the repository and start the application locally: #
+# Installation Instructions: 
+## Run the following commands to clone the repository and start the application locally: #
 
 1. ` git clone git@github.com:pareesakd1118/friends.git `
 2. ` cd friends `
@@ -12,7 +12,7 @@
 4. ` rails db:create db:migrate `
 5. ` rails server `
 
-Run Tests
+## Run Tests
 
 Ensure you have the app running locally (see Installation Instructions above).
 To run the tests, use:
