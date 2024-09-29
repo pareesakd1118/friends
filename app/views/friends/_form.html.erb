@@ -36,6 +36,11 @@
     <%= form.text_field :twitter, class:"form-control", placeholder:"Twitter Handle"  %>
   </div>
 
+  <div class="field form-group mb-3">
+    
+    <%= form.number_field :user_id, id: :friend_user_id, class:"form-control", value: current_user.id, type: "hidden" %>
+  </div>
+
   <div class="d-flex flex-row" >
   <div class="actions" style="margin-right: 10px;">
     <%= form.submit class:'btn btn-primary'%>
