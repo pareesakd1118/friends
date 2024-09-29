@@ -1,3 +1,11 @@
-<h1>Hellooooo world!</h1>
-this is my first rails webpage
+<h1 class="my-5 text-center">Welcome to the Friends App!</h1>
 
+<div class="container text-center">
+  <p class="lead my-4">
+    Connect with your friends, keep track of your favorite people, and build your own social network.
+  </p>
+  <p class="my-3">
+    <%= link_to "Sign Up", new_user_registration_path, class: "btn btn-primary mx-2" %>
+    <%= link_to "Log In", new_user_session_path, class: "btn btn-secondary mx-2" %>
+  </p>
+</div>
